@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import aboutImage from "../assets/van.png";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       {/* Hero Image Section */}
       <div className="h-[40vh] sm:h-[50vh] lg:h-[60vh]">
         <img
-          src="./src/assets/van.png"
+          src={aboutImage}
           alt="Van on a scenic road"
           className="w-full h-full object-cover"
         />

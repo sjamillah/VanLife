@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import vanlifelogo from '../assets/logo.png'
 
 function stylenavLink(isActive) {
   return isActive ? 'font-bold hover:underline hover:text-[#161616]' : 'hover:underline text-gray-600';
@@ -12,7 +13,7 @@ const Header = () => {
         <header className="bg-white flex justify-between items-center p-4 sm:px-6 lg:px-8">
             <Link to="/">
             <img
-                src="./src/assets/logo.png"
+                src={vanlifelogo}
                 alt="VanLife Logo"
                 className="w-32 sm:w-40 lg:w-44"
             />

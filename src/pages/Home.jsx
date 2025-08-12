@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import mountainImg from "../assets/mountain.png";
 
 const Home = () => {
   return (
     <section className="relative min-h-screen">
       {/* Hero Image */}
       <img
-        src="./src/assets/mountain.png"
+        src={mountainImg}
         alt="Mountain landscape with road"
         className="absolute inset-0 w-full h-full object-cover"
       />
